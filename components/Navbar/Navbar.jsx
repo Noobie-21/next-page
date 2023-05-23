@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineGithub } from 'react-icons/ai'
 import Noob from '../../assets/logo/noob-logo.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Navbar = () => {
     return (
@@ -13,10 +14,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="right-nav px-2 gap-2 flex justify-between items-center">
-                    <a href="">About</a>
-                    <a href="" className='text-2xl ml-2 hover:text-pink-300'>
+                    <Link href="https://github.com/Noobie-21"  className='cursor-pointer text-2xl ml-2 hover:text-pink-300'>
                         <AiOutlineGithub />
-                    </a>
+                    </Link>
 
                 </div>
             </div>

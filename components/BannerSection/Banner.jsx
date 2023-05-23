@@ -1,10 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import Human from '../../assets/Human.png'
 import img2 from '../../assets/pngwing.com.png'
 import Noob from '../../assets/noob.png'
 import Bubble from '../../assets/bubble.png'
-import Anime from '../../assets/animeface.png'
+import animeboy from '../../assets/animeboy.png'
 
 const Banner = () => {
     return (
