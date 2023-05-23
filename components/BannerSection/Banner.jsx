@@ -27,7 +27,7 @@ const Banner = () => {
                         <Image src={Bubble} width={500} height={500} />
                     </div>
 
-                    <Image className=' ' src={Human} width={400} height={400} />
+                    <Image className=' ' src={animeboy} width={400} height={400} />
                 </div>
             </div>
         </div>
