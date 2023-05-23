@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@600&family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Creepster&family=Montserrat&display=swap');
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --font-fancy: 'Montserrat', sans-serif;
+  --box-shadow: 4px 7px 92px -25px rgba(168, 213, 206, 0.65);
+  --box-shadow2: 0 8px 32px 0 rgba(50, 50, 50, 0.37);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: "Montserrat", sans-serif;
+}
+.Blur-bg {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.banner {
+  border-radius: 39% 61% 57% 43% / 36% 33% 67% 64%;
+  background: linear-gradient(
+    29deg,
+    rgba(9, 107, 121, 1) 12%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: var(--box-shadow);
+}
+
+.cutiepie {
+  background: rgba(25, 25, 25, 0.55);
+  box-shadow: var(--box-shadow2) ;
+  backdrop-filter: blur(5px);
+}
+
