@@ -8,7 +8,7 @@ const About = () => {
         <div className='w-full h-screen flex justify-between items-center relative'>
             <div className='w-1/2 opacity-90 '>
                 <Image src={AnimeGirl} width={300} height={300} className='absolute -bottom-44 left-60' />
-                <Image src={AnimeGirl2} width={300} height={300} className='absolute top-0 left-0 rotate-90 opacity-80'  />
+                <Image src={AnimeGirl2} width={300} height={300} className='absolute top-0 left-0 rotate-90 opacity-90'  />
             </div>
            
             <div className='p-12'>
